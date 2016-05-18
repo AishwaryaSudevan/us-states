@@ -1,2 +1,5 @@
 node_modules
-js/bundle.js
+.sass-cache/
+.idea/
+.tmp/
+dist/

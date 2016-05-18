@@ -1,5 +1,5 @@
 {
-  "name": "frontend-sandbox",
+  "name": "us-states",
   "version": "1.0.0",
   "description": "A map of the US states made using D3.",
   "main": "index.js",
@@ -29,6 +29,7 @@
   "dependencies": {
     "browser-sync": "^2.10.1",
     "browserify": "^12.0.1",
+    "d3": "^3.5.17",
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
     "gulp": "^3.9.0",
