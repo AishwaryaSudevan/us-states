@@ -1,7 +1,7 @@
 {
   "name": "frontend-sandbox",
   "version": "1.0.0",
-  "description": "A simple sandbox for front-end development with a live view of your code.",
+  "description": "A map of the US states made using D3.",
   "main": "index.js",
   "scripts": {
     "test": "tape \"test/**/*.test.js\" | faucet",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrleszcz/frontend-sandbox.git"
+    "url": "git+https://github.com/jrleszcz/us-states.git"
   },
   "author": "John Leszczynski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jrleszcz/frontend-sandbox/issues"
+    "url": "https://github.com/jrleszcz/us-states/issues"
   },
-  "homepage": "https://github.com/jrleszcz/frontend-sandbox#readme",
+  "homepage": "https://github.com/jrleszcz/us-states#readme",
   "devDependencies": {
     "browserify": "^12.0.1",
     "faucet": "0.0.1",
@@ -27,7 +27,20 @@
     "watchify": "^3.5.0"
   },
   "dependencies": {
-    "d3": "^3.5.17",
-    "jquery": "^2.1.4"
+    "browser-sync": "^2.10.1",
+    "browserify": "^12.0.1",
+    "eslint": "^1.10.3",
+    "eslint-config-google": "^0.3.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-flatten": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.1",
+    "stream-browserify": "^2.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
   }
 }
