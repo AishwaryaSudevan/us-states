@@ -18,7 +18,7 @@ var path = d3.geo.path()
   .projection(projection)
 
 
-d3.json('../data/us-states.json', function (error, json) {
+d3.json('assets/data/us-states.json', function (error, json) {
   if (error) {
     console.log("error getting us-states.json: ", error)
     return
